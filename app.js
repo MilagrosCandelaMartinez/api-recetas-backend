@@ -27,6 +27,18 @@ app.get('/', (req, res) => {
     }
   });
 });
+// Rutas principales
+app.use('/api/products', require('./src/routes/productRoute'));
+app.use('/api/categories', require('./src/routes/categoryRoute'));
+app.use('/api/users', require('./src/routes/userRoute'));
+app.use('/api/auth', require('./src/routes/authRoute'));
+
+// Middleware para rutas no encontradas
+app.use('*', (req, res) => {
+  res.status(404).json({
+    message: 'Ruta no encontrada'
+  });
+});
 const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, () => {
