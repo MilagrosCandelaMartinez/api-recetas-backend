@@ -1,9 +1,6 @@
 # 🚀 Proyecto CRUD MongoDB - API REST Completa
-
-*Estudiante:* [Nombre del Estudiante]  
-*Curso:* [Nombre del Curso]  
-*Fecha de Entrega:* [Fecha]  
-*Profesor:* [Nombre del Profesor]
+*Estudiante:* Milagros Candela Martinez Sanchez  
+*Fecha de Entrega:* 23/06/2025
 
 ---
 
